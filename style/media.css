@@ -1,0 +1,854 @@
+/* 
+  ##Cihaz = Masaüstü
+  ##Ekran = 1281px 'den yüksek çözünürlükler için
+*/
+
+@media (min-width: 1281px) {}
+  
+  /* 
+    ##Cihaz = Laptoplar, Masaüstü
+    ##Ekran = 1025px to 1280px Arası Ekranlar
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    /*Abouth*/
+  .elementTitle{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .title{
+    width: 70%;
+  }
+  .abouthTitle{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+  .abouthImage{
+    width: 100%;
+    box-shadow: none;
+  }
+  .abouthText{
+    width: 100%;
+  }
+  .info{
+    width: 100%;
+  }
+  .tile{
+    font-size: 2.5em;
+    color: #000000;
+}
+.workingBoxOne i , .workingBoxTwo i , .workingBoxThree i{
+    font-size: 1.5em;
+}
+  /*Abouth*/
+  .message .info{
+    width: 20%;
+    height: 10%;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: .5rem;
+    transition: 1s all ease-in;
+}
+.message .info:hover{
+    background-color: var(--five-Color);
+}
+.textBox{
+  width: 80%;
+  padding: .5rem !important;
+}
+.textBox .info{
+  width: 30% !important;
+  height: 20% !important;
+}
+.newsPaperContent{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.newsPaperLeftSide{
+  width: 100%;
+  height: 100%;
+}
+.newPaperRightSide{
+  width: 100%;
+  height: 100%;
+}
+.newsPaperLeftSide p{
+  padding-bottom: .4rem !important;
+}
+.newPaperRightSide p{
+  padding-bottom: .4rem !important;
+}
+.newspaperText{
+  height: 40%;
+}
+.newsPaperLeftSide a{
+  height: 10% !important;
+}
+.newPaperRightSide a{
+  height: 10% !important;
+}
+  }
+  
+  /* 
+    ##Cihaz = Tabletler, Ipad (portrait/dikey modda)
+    ##Ekran = 768px to 1024px Arası Ekranlar
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {}
+  
+  /* 
+    ##Cihaz = Tabletler, Ipad (landscape/yatay modda)
+    ##Ekran = 768px to 1024px Arası Ekranlar
+  */
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    #headerContainer{
+        max-width: 100vw;
+        max-height: 100vh;
+        width: 100%;
+        height: 0vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        display: none;
+        transition: 1s ease-in-out;
+        background-color: var(--five-Color) !important;
+    }
+    #navbar{
+        width: 100%;
+        height: 80%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navList{
+        width: 100% !important;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 2rem;
+        font-size: 1.2em;
+        position: absolute;
+        right: 30%;
+    }
+    .navList li{
+        width: 30% !important;
+        text-align: left !important;
+    }
+    .subMenu{
+        width: 60% !important;
+        display: none;
+        width: auto;
+        transform: translate(-30%);
+        position: absolute;
+        left: 82%;
+        top: 30%;
+        background: none;
+        box-shadow: none;
+        border: none;
+    }
+    .subMenu li{
+        width: 100% !important;
+    }
+    #logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+        height: 10%;
+        margin: 0 auto;
+    }
+    .icons{
+        z-index: 1111111;
+        display: block;
+    }
+    /*Slider Style*/
+    .container{
+      width: 100%;
+      height: 100vh !important;
+      z-index: -1;
+  }
+    
+    .swiper-button-prev{
+      margin-left: 0px;
+    }
+    .swiper-button-next{
+      margin-left: 0px;
+    }
+    .imgOverlay p{
+      font-size: .9em;
+      letter-spacing: 1px;
+      color: #fff;
+      font-weight: 100;
+    }
+    .imgOverlay h1{
+      letter-spacing: 5px;
+      color: #fff;
+      font-size: 5em;
+      font-weight: 600;
+    }
+    /*Slider Style*/
+    /*Abouth*/
+    .elementTitle{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .title{
+      width: 70%;
+    }
+    .abouthTitle{
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+    }
+    .abouthImage{
+      width: 100%;
+      box-shadow: none;
+    }
+    .abouthText{
+      width: 100%;
+    }
+    .info{
+      width: 100%;
+    }
+    .tile{
+      font-size: 2.5em;
+      color: #000000;
+  }
+  .workingBoxOne i , .workingBoxTwo i , .workingBoxThree i{
+      font-size: 1.5em;
+  }
+  .message .info{
+    width: 30%;
+    height: 10%;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: .5rem;
+    transition: 1s all ease-in;
+}
+.message .info:hover{
+    background-color: var(--five-Color);
+}
+  /*Abouth*/
+  .textBox{
+    width: 80%;
+    padding: .5rem !important;
+  }
+  .textBox .info{
+    width: 40% !important;
+    height: 20% !important;
+  }
+  .newsPaperContent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .newsPaperLeftSide{
+    width: 100%;
+    height: 100%;
+  }
+  .newPaperRightSide{
+    width: 100%;
+    height: 100%;
+  }
+  .newsPaperLeftSide p{
+    padding-bottom: .4rem !important;
+  }
+  .newPaperRightSide p{
+    padding-bottom: .4rem !important;
+  }
+  .newspaperText{
+    height: 40%;
+  }
+  .newsPaperLeftSide a{
+    height: 10% !important;
+  }
+  .newPaperRightSide a{
+    height: 10% !important;
+  }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* 
+    ##Cihaz = Düşük Çözünürlüklü Tablet ve Mobil Ekranlar (Landscape / Yatay Modda)
+    ##Ekran = 481px to 767px Arası Ekranlar
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    /*Header Style*/
+    #headerContainer{
+      max-width: 100vw;
+      max-height: 100vh;
+      width: 100%;
+      height: 0vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      display: none;
+      transition: 1s ease-in-out;
+      background-color: var(--five-Color) !important;
+  }
+  #navbar{
+      width: 100%;
+      height: 80%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .navList{
+      width: 100% !important;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin: 0 auto;
+      gap: 2rem;
+      font-size: 1.2em;
+      position: absolute;
+      right: 30%;
+  }
+  .navList li{
+      width: 30% !important;
+      text-align: left !important;
+  }
+  .subMenu{
+      width: 60% !important;
+      display: none;
+      width: auto;
+      transform: translate(-30%);
+      position: absolute;
+      left: 82%;
+      top: 30%;
+      background: none;
+      box-shadow: none;
+      border: none;
+  }
+  .subMenu li{
+      width: 100% !important;
+  }
+  #logo{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40%;
+      height: 10%;
+      margin: 0 auto;
+  }
+  .icons{
+      z-index: 1111111;
+      display: block;
+  }
+  /*Abouth*/
+  .elementTitle{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .title{
+    width: 100%;
+  }
+  .abouthTitle{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .abouthImage{
+    width: 100%;
+    box-shadow: none;
+  }
+  .abouthText{
+    width: 100%;
+  }
+  .info{
+    width: 100%;
+  }
+  /*Abouth*/
+  /*Header Style*/
+  /*Slider Style*/
+  .container{
+    width: 100%;
+    height: 100vh !important;
+    z-index: -1;
+}
+  .swiper-button-prev{
+    margin-left: 5px;
+    display: none;
+  }
+  .swiper-button-next{
+    margin-left: 5px;
+    display: none;
+  }
+  .imgOverlay p{
+    font-size: .9em;
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: 100;
+    text-align: justify;
+  }
+  .imgOverlay h1{
+    letter-spacing: 5px;
+    color: #fff;
+    font-size: 5em;
+    font-weight: 600;
+  }
+  .imgOverlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 100%;
+    text-align: left;
+    z-index: 11;
+    padding: 1rem;
+}
+.tile{
+  font-size: 2.5em;
+  color: #000000;
+}
+.workingBoxOne i , .workingBoxTwo i , .workingBoxThree i{
+  font-size: 1.5em;
+}
+.message .info{
+  width: 30%;
+  height: 10%;
+  color: #fff;
+  border: 1px solid black;
+  border-radius: .5rem;
+  transition: 1s all ease-in;
+}
+.message .info:hover{
+  background-color: var(--five-Color);
+}
+  /*Slider Style*/
+  .messageText{
+    padding: 1rem;
+  }
+  .textBox{
+    width: 100%;
+    padding: .5rem !important;
+  }
+  .textBox .info{
+    width: 40% !important;
+    height: 20% !important;
+  }
+  .newsPaperContent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .newsPaperLeftSide{
+    width: 100%;
+    height: 100%;
+  }
+  .newPaperRightSide{
+    width: 100%;
+    height: 100%;
+  }
+  .newsPaperLeftSide p{
+    padding-bottom: .4rem !important;
+  }
+  .newPaperRightSide p{
+    padding-bottom: .4rem !important;
+  }
+  .newspaperText{
+    height: 40%;
+  }
+  .newsPaperLeftSide a{
+    height: 10% !important;
+  }
+  .newPaperRightSide a{
+    height: 10% !important;
+  }
+}
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+    ##Cihaz = En Çok Tercih Edilen Mobil Boyutlar (Portrait/Dikey Modda)
+    ##Ekran = 320px to 479px Arası Ekranlar
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    /*Header Style*/
+    #headerContainer{
+      max-width: 100vw;
+      max-height: 100vh;
+      width: 100%;
+      height: 0vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      display: none;
+      transition: 1s ease-in-out;
+      background-color: var(--five-Color) !important;
+  }
+  #navbar{
+      width: 100%;
+      height: 80%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .navList{
+      width: 100% !important;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin: 0 auto;
+      gap: 2rem;
+      font-size: 1.2em;
+      position: absolute;
+      right: 30%;
+  }
+  .navList li{
+      width: 30% !important;
+      text-align: left !important;
+  }
+  .subMenu{
+      width: 60% !important;
+      display: none;
+      width: auto;
+      transform: translate(-30%);
+      position: absolute;
+      left: 82%;
+      top: 30%;
+      background: none;
+      box-shadow: none;
+      border: none;
+  }
+  .subMenu li{
+      width: 100% !important;
+  }
+  #logo{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 60%;
+      height: 10%;
+      margin: 0 auto;
+  }
+  .icons{
+      z-index: 1111111;
+      display: block;
+  }
+  /*Header Style*/
+  /*Slider Style*/
+  .container{
+    width: 100%;
+    height: 100vh !important;
+    z-index: -1;
+}
+  .swiper-button-prev{
+    margin-left: 5px;
+    display: none;
+  }
+  .swiper-button-next{
+    margin-left: 5px;
+    display: none;
+  }
+  .imgOverlay p{
+    font-size: .9em;
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: 100;
+    text-align: justif;
+  }
+  .imgOverlay h1{
+    letter-spacing: 5px;
+    color: #fff;
+    font-size: 5em;
+    font-weight: 600;
+  }
+  .imgOverlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 100%;
+    text-align: left;
+    z-index: 11;
+    padding: 1rem;
+}
+  /*Slider Style*/
+  /*Abouth*/
+  .elementTitle{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .title{
+    width: 100%;
+  }
+  .abouthTitle{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .abouthImage{
+    width: 100%;
+    box-shadow: none;
+  }
+  .abouthText{
+    width: 100%;
+  }
+  .info{
+    width: 100%;
+  }
+  .tile{
+    font-size: 2em;
+    color: #000000;
+}
+.workingBoxOne i , .workingBoxTwo i , .workingBoxThree i{
+    font-size: 1em;
+}
+  /*Abouth*/
+  .message .info{
+    width: 30% !important;
+    height: 10%;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: .5rem;
+    transition: 1s all ease-in;
+}
+.message .info:hover{
+    background-color: var(--five-Color);
+}
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 991.98px){
+  .elementTitle{
+    width: 100%;
+  }
+  .abouthTitle{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .abouthImage{
+    width: 100%;
+    box-shadow: none;
+  }
+  .abouthText{
+    width: 100%;
+  }
+  .message .info{
+    width: 30%;
+    height: 10%;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: .5rem;
+    transition: 1s all ease-in;
+}
+.message .info:hover{
+    background-color: var(--five-Color);
+}
+}
+
+@media (max-width: 575.98px){
+  .message{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .messageText{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    text-align: justify;
+  }
+  .message .info{
+    width: 40%;
+    height: 10%;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: .5rem;
+    transition: 1s all ease-in;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.message .info:hover{
+    background-color: var(--five-Color);
+}
+.textBox{
+  width: 100%;
+  padding: .5rem !important;
+}
+.textBox .info{
+  width: 60% !important;
+  height: 20% !important;
+}
+.newsPaperContent{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.newsPaperLeftSide{
+  width: 100%;
+  height: 100%;
+}
+.newPaperRightSide{
+  width: 100%;
+  height: 100%;
+}
+.newsPaperLeftSide p{
+  padding-bottom: .4rem !important;
+}
+.newPaperRightSide p{
+  padding-bottom: .4rem !important;
+}
+.newspaperText{
+  height: 40%;
+}
+.newsPaperLeftSide a{
+  height: 20% !important;
+}
+.newPaperRightSide a{
+  height: 20% !important;
+}
+}
