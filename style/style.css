@@ -264,6 +264,7 @@ button{
     gap: 1rem;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 1rem;
 }
 .workingBoxOne{
     width: 33%;
@@ -577,6 +578,7 @@ button{
     width: 50%;
     height: 100%;
 }
+
 .activiteLinks{
     width: 100%;
     height: 100%;
@@ -597,7 +599,134 @@ button{
     padding: 1rem;
     border: 1px solid #000000;
 }
+.activiteTitle{
+    margin-top: 1rem;
+    max-height: 10vh;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 1rem;
+}
 /*activite element*/
+/*sectors style*/
+.sectors{
+    max-width: 100vw;
+    max-height: 120vh;
+    width: 100%;
+    height: 120vh;
+}
+.sectorsTitle{
+    max-width: 100vw;
+    height: auto;
+    padding: 1rem;
+    text-align: center;
+}
+.sectorTopSide{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    gap: 1rem;
+}
+.sectorTorSideLeft{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    transition: 1s all ease-in-out;
+}
+.sectorBottomSide{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+.sectorTorSideLeft:hover .line{
+    width: 10%;
+    height: 15%;
+    border: 1px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 100%;
+    transition: 1s all ease-in-out;
+    opacity: 1;
+}
+.sectorTorSideLeft:hover .line .lineOne{
+    width: 50%;
+    height: 1%; 
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border: 1px solid rgb(255, 255, 255);
+    opacity: 1;
+    transition: 1s all ease-in-out;
+}
+.sectorTorSideLeft:hover .line .lineTwo{
+    width: 50%;
+    height: 1%;
+    position: relative;
+    top: 48%;
+    left: 25%;
+    transform: translate(-48% , -25%);
+    transform: rotate(90deg);
+    border: 1px solid rgb(255, 255, 255);
+    opacity: 1;
+    transition: 1s all ease-in-out;
+}
+.line{
+    width: 10%;
+    height: 15%;
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 100%;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+.lineOne{
+    width: 0%;
+    height: 0%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border: 1px solid black;
+    opacity: 0;
+}
+.lineTwo{
+    width: 0%;
+    height: 0%;
+    position: relative;
+    top: 48%;
+    left: 25%;
+    transform: translate(-48% , -25%);
+    transform: rotate(90deg);
+    border: 1px solid black;
+    opacity: 0;
+}
+.sectorTorSideLeft:hover::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(13, 30, 218, 0.338);
+    position: absolute;
+    top: 0;
+}
+.sectorText{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-60% , -50%);
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+.sectorTorSideLeft:hover .sectorText{
+    opacity: 1;
+    transition: 1s all ease-in-out;
+}
+/*sectors style*/
 
 
 
